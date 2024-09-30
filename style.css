@@ -1,0 +1,134 @@
+:root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey-700: hsl(0, 0%, 20%);
+--Grey-800: hsl(0, 0%, 12%);
+--Grey-900: hsl(0, 0%, 8%);
+}
+
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: var(--Grey-900);
+}
+
+img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 120px;
+    top: 35px;
+}
+
+
+a{
+    position: relative;
+    top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.container{
+    width: 350px;
+    height: 625px;
+    border-radius: 10px;
+    background-color: var(--Grey-800);
+    position: relative;
+    left: 470px;
+}
+
+.texts{
+    text-align: center;
+    position: relative;
+    top: 33px;
+}
+
+.title{
+    color: var(--White);
+}
+
+.paragraphum{
+    color: var(--Green);
+}
+
+.paragraphdois{
+    color: var(--White);
+}
+
+.box-1{
+    width: 300px;
+    height: 50px;
+    background-color: var(--Grey-700);
+    border-radius: 10px;
+    position: relative;
+    left: 23px;
+    top: 40px;
+}
+
+.box-2{
+    width: 300px;
+    height: 50px;
+    background-color: var(--Grey-700);
+    border-radius: 10px;
+    position: relative;
+    left: 23px;
+    top: 50px;
+}
+
+.box-3{
+    width: 300px;
+    height: 50px;
+    background-color: var(--Grey-700);
+    border-radius: 10px;
+    position: relative;
+    left: 23px;
+    top: 60px;
+}
+
+.box-4{
+    width: 300px;
+    height: 50px;
+    background-color: var(--Grey-700);
+    border-radius: 10px;
+    position: relative;
+    left: 23px;
+    top: 70px;
+}
+
+.box-5{
+    width: 300px;
+    height: 50px;
+    background-color: var(--Grey-700);
+    border-radius: 10px;
+    position: relative;
+    left: 23px;
+    top: 80px;
+}
+
+.box-1:hover{
+    background-color: var(--Green);   
+}
+
+.box-2:hover{
+    background-color: var(--Green);
+}
+
+.box-3:hover{
+    background-color: var(--Green);
+}
+
+.box-4:hover{
+    background-color: var(--Green);
+}
+
+.box-5:hover{
+    background-color: var(--Green);
+}
+
